@@ -19,7 +19,7 @@ async function webpage_to_pdf(url, pdfFilePath) {
     try {
         await page.goto(url);
         await login_to_gitlab(page); // Faça login no GitLab
-        await new Promise(resolve => setTimeout(resolve, 8000)); // Aguarda 5 segundos após o login (ajuste conforme necessário)
+        await new Promise(resolve => setTimeout(resolve, 8000)); // Aguarda 8 segundos após o login (ajuste conforme necessário)
         await page.pdf({ 
             path: pdfFilePath, 
             width: '297mm', // Largura do papel A3 em modo paisagem

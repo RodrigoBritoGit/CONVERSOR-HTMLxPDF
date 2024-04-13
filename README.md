@@ -27,12 +27,6 @@ Este comando instalará o Puppeteer (biblioteca de automação de navegador) e o
 
 Antes de executar o script, você precisa configurar algumas variáveis de ambiente.
 
-1. Crie um arquivo `.env` na raiz do projeto:
-
-
-2. Adicione as seguintes variáveis de ambiente ao arquivo `.env`:
-
-
 Substitua `seu_nome_de_usuario` e `sua_senha` pelo seu nome de usuário e senha do GitLab.
 
 

@@ -23,23 +23,16 @@ npm install puppeteer
 
 Este comando instalará o Puppeteer (biblioteca de automação de navegador) e o dotenv (para carregar variáveis de ambiente de um arquivo `.env`).
 
-## Configuração
-
-Antes de executar o script, você precisa configurar algumas variáveis de ambiente.
-
-Substitua `seu_nome_de_usuario` e `sua_senha` pelo seu nome de usuário e senha do GitLab.
-
-
 ### LOGIN GITLAB
 Substitua `seu_nome_de_usuario` e `sua_senha` pelo seu nome de usuário e senha do GitLab.
+
+Substitua `URL_DO_SITE` pela URL que você deseja capturar e `NOME_DO_PDF` pelo nome do arquivo PDF desejado.
 
 ## Uso
 
 Para gerar um PDF de uma URL, execute o seguinte comando:
 
-Substitua `URL_DO_SITE` pela URL que você deseja capturar e `NOME_DO_PDF` pelo nome do arquivo PDF desejado.
-
-Por exemplo:
+node conversor-example.js
 
 ## Notas
 
